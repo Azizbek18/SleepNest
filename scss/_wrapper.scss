@@ -1,0 +1,212 @@
+.wrapper .container {
+    padding: 90px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #464351;
+    border-radius: 30px;
+    position: relative;
+}
+
+.wrapper__rigth {
+    width: 450px;
+}
+
+.wrapper__title {
+    font-family: Unbounded;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #fff;
+    padding: 40px 0px;
+}
+
+.wrapper__text {
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #fff;
+    padding: 0px 0px;
+}
+
+.wrapper__subtitle {
+    font-family: Unbounded;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.wrapper__subtext {
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #fff;
+    padding: 0px 0px 40px;
+}
+
+.wrapper__link {
+    background-color: #fff;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12.47px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #000000;
+}
+
+.wrapper__link:hover {
+    background-color: #464351;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.wrapper__pic {
+    position: absolute;
+    left: 300px;
+    top: -100px;
+}
+
+
+@media (max-width:1440px) {
+    .wrapper .container {
+        max-width: 1024px;
+        height: 550px;
+        display: flex;
+        align-items: end;
+    }
+
+    .wrapper__pic {
+        top: -270px;
+        left: 120px;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .wrapper .container {
+        height: 450px;
+        padding: 120px 60px 30px;
+        max-width: 768px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+
+    }
+
+    .wrapper__pic {
+        left: 60px;
+        top: -270px;
+        max-width: 650px;
+    }
+
+    .wrapper__rigth {
+        width: 400px;
+    }
+
+    .wrapper__title {
+        font-family: Unbounded;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+    }
+
+    .wrapper__text {
+        font-family: Unbounded;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        padding: 0px;
+    }
+}
+
+@media (max-width:768px) {
+    .wrapper .container {
+        max-width: 390px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .wrapper__pic {
+        max-width: 450px;
+        left: -25px;
+        top: -100px;
+    }
+
+    .wrapper__left {
+        padding: 10px 0px 0px;
+    }
+
+    .wrapper__title {
+        font-family: Unbounded;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+
+    .wrapper__text {
+        font-family: Unbounded;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .wrapper__subtitle {
+        font-family: Unbounded;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+
+    .wrapper__subtext {
+        font-family: Unbounded;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .wrapper__rigth{
+        text-align: center;  
+        padding: 0px 0px;
+        width: 200px;
+    }
+
+}

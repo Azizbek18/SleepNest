@@ -1,0 +1,220 @@
+.sidebar .container {
+    padding: 10px 0px 80px;
+}
+
+.sidebar__title {
+    font-family: Unbounded;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 0px 20px;
+
+}
+
+.sidebar_text-name {
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #A5A1A1;
+    padding: 20px 0px 60px;
+}
+
+.sidebar__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar__item {
+    width: 450px;
+}
+
+.sidebar__box {
+    width: 400px;
+    height: 220px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+.sidebar__pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.sidebar__element {
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar__subtitle {
+    font-family: Unbounded;
+    font-weight: 700;
+    font-size: 18.7px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    padding: 10px 0px 20px;
+}
+
+.sidebar__text-name {
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #5B5A5A;
+}
+
+.sidebar__text {
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+.sidebar__subtext {
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #616060;
+}
+
+
+@media (max-width:1440px) {
+    .sidebar .container {
+        max-width: 1024px;
+    }
+
+    .sidebar__box {
+        width: 325px;
+        height: 200px;
+    }
+
+    .sidebar__item {
+        width: 325px;
+    }
+}
+
+@media (max-width:1024px) {
+    .sidebar .container {
+        max-width: 768px;
+    }
+
+    .sidebar__box {
+        width: 210px;
+        height: 130px;
+    }
+
+    .sidebar__text {
+        font-family: Unbounded;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+
+    }
+
+    .sidebar__subtext {
+        font-family: Unbounded;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+
+    }
+
+    .sidebar__subtitle {
+        font-family: Unbounded;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        width: 230px;
+    }
+
+    .sidebar__text-name {
+        font-family: Unbounded;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        width: 230px;
+    }
+}
+
+@media (max-width:768px) {
+    .sidebar .container {
+        max-width: 390px;
+    }
+
+    .sidebar__list {
+        flex-direction: column;
+    }
+
+    .sidebar__box {
+        width: 390px;
+        height: 220px;
+    }
+
+    .sidebar__text {
+        font-family: Unbounded;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+    }
+
+    .sidebar__subtext {
+        font-family: Unbounded;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+    }
+
+    .sidebar__subtitle {
+        width: 370px;
+        font-family: Unbounded;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+    }
+
+    .sidebar__text-name {
+        font-family: Unbounded;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        width: 360px;
+        padding: 5px 0px 50px;
+    }
+
+}

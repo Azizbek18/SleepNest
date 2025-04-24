@@ -1,0 +1,142 @@
+.page .container {
+    padding: 120px 0px;
+}
+
+.page__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.page__item {
+    display: flex;
+    gap: 15px;
+}
+
+.page__title {
+    font-family: Unbounded;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.page__text {
+    width: 250px;
+    padding: 20px 0px;
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #AAAAAA;
+}
+
+.page__pic {
+    width: 55px;
+    height: 55px;
+}
+
+
+@media (max-width:1440px) {
+    .page .container {
+        padding-bottom: 300px;
+        max-width: 1024px;
+    }
+
+    .page__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .page__list {
+        gap: 5px;
+    }
+}
+
+@media (max-width:1024px) {
+    .page .container {
+        max-width: 768px;
+    }
+    .page__box{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .page__item:nth-child(2){
+        width: 130px;
+    }
+    .page__item:nth-child(3){
+        width: 170px;
+    }
+    .page__item:nth-child(4){
+        width: 175px;
+    }
+    .page__item:nth-child(2) .page__title{
+        width: 120px;
+    }
+    .page__item:nth-child(2) .page__text{
+        width: 200px;
+    }
+    .page__item:nth-child(4) .page__text{
+        width: 200px;
+    }
+    .page__title {
+        font-family: Unbounded;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .page__text{
+        width: 225px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .page .container{
+        padding: 40px 0px 120px;
+        max-width: 390px;
+    }
+    .page__list{
+        flex-wrap: wrap;
+    }
+    .page__item{
+        padding: 20px 0px;
+    }
+    .page__item:nth-child(1){
+        width: 190px;
+    }
+    .page__item:nth-child(2){
+        width: 190px;
+    }
+    .page__item:nth-child(3){
+        width: 190px;
+    }
+    .page__item:nth-child(4){
+        width: 190px;
+    }
+    .page__box{
+        display: flex;
+        justify-content: center;
+    }
+    .page__title{
+        width: 150px;
+    }
+    .page__text{
+        width: 180px;
+    }
+    .page__item:nth-child(2) .page__title{
+        width: 190px;
+    }
+}

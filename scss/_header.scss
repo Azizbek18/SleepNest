@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    box-shadow: 0px 0px 15px 0px #5E59592A;
+}
+
+header .container {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__link {
+    font-family: Unbounded;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #00000098;
+    display: inline-block;
+}
+
+.header__link:hover {
+    display: inline-block;
+    font-family: Unbounded;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #A17F4A;
+    transform: scale(1.1)
+}
+
+.header__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    display: flex;
+}
+
+.header__icon {
+    width: 30px;
+    height: 30px;
+}
+
+.header__img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.header__button {
+    background-color: #A17F4A;
+    padding: 5px 35px 5px 5px;
+    border-radius: 10px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 19.22px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFFA6;
+}
+.bars{
+    display:none;
+}
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 5px 0px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+.bar:nth-child(2){
+    width: 15px;
+    height: 3px;
+    margin: 5px 0px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+@media (max-width:1440px) {
+    .container{
+        padding:0px 20px;
+    }
+    header .container{
+        max-width: 1024px;
+    }
+}
+@media(max-width:1024px){
+    header .container{
+        max-width: 768px;
+    }
+    .header__item:nth-child(1){
+        display: none;
+    }
+    .header__item:nth-child(2){
+        display: none;
+    }
+    .header__item:nth-child(3){
+        display: none;
+    }
+    .header__item:nth-child(4){
+        display: none;
+    }
+    .header__item:nth-child(5){
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+}
+
+@media (max-width:768px) {
+    header .container{
+        max-width: 390px;
+    }
+}
